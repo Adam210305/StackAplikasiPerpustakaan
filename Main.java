@@ -1,4 +1,8 @@
-//Made by 20230040296
+/*
+Made by 20230040296
+Name : Adam Gumilang
+Class : TI23C
+*/
 
 import java.util.Stack;
 import java.util.Scanner;

@@ -45,8 +45,6 @@ public class Main {
                 System.out.print("Masukkan tahun: ");
                 int tahun = inputan.nextInt();
 
-                inputan.close();
-
                 dataBuku.push(Judul);
                 dataBukupengarang.push(pengarang);
                 dataBukupenerbit.push(penerbit);
@@ -80,6 +78,9 @@ public class Main {
                 System.out.println("Buku lawas: " + HitungBukuLawas);
             }
         } while (menu != 3);
+
+        inputan.close();
+        
     }
     public static void showMenu() {
         System.out.println("=== Menu ===");

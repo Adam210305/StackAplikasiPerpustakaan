@@ -65,7 +65,7 @@ public class Main {
                 System.out.println("====================================================================");
                 for (int indeks : dataBukukategori ) {
                     String index = KategoriBuku(indeks);
-                    System.out.println(++No + " " + dataBuku.get(BukuKe) + "\t\t" + dataBukupengarang.get(BukuKe) + "\t\t" + dataBukupenerbit.get(BukuKe) + "\t\t" + dataBukutahun.get(BukuKe) + "\t\t" + index );
+                    System.out.println(++No + "\t\t" + dataBuku.get(BukuKe) + "\t\t" + dataBukupengarang.get(BukuKe) + "\t\t" + dataBukupenerbit.get(BukuKe) + "\t\t" + dataBukutahun.get(BukuKe) + "\t\t" + index );
                     BukuKe++;
                 }
                 System.out.println("====================================================================");
